@@ -19,7 +19,7 @@ function AllMelonsPage(props) {
         key={melon.melon_code}
         code={melon.melon_code}
         name={melon.name}
-        imgUrl={melon.img_url}
+        imgUrl={melon.image_url}
         price={melon.price}
       />
     );
